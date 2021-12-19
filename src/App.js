@@ -19,3 +19,5 @@ function App() {
 }
 
 export default App;
+//temp.js -> defaultLayout -> DefaultHOC -> App.js -> Index.js
+//inner -> outer
