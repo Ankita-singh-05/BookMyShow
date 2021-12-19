@@ -1,13 +1,24 @@
-import React, { Component } from "react";
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes, BrowserRouter } from "react-router-dom";
+
+//HOC 
+import DefaultHOC from "./HOC/Default.HOC";
+
+//Components
+import Temp from "./components/temp";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App" className="p-6 items-center justify-center">
-        <h1 className="text-blue-400 font-extrabold">Hello World!</h1>
-        <p className="tracking-widest">This is my first React App.</p>
-    </div>
+    <>
+    {/* New version <Route path="/" element = {<Name/>} */}
+    {/* <Route path="/" exact component = {Name} />
+    <Route path="/movie" exact component = {Name2} /> */}
+    <BrowserRouter>
+    <Routes>
+      <DefaultHOC path="/" exact component={Temp} />
+    </Routes>
+    </BrowserRouter>
+    </>
   );
 }
 
