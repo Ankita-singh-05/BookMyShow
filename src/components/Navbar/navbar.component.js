@@ -10,6 +10,9 @@ const NavSm = () => {
                 <span>
                     Pune <BiChevronRight />
                 </span>
+                <button class="py-2 px-4 font-semibold rounded-lg shadow-md text-white bg-sky-500 hover:bg-sky-700 bg-red-500" >
+                    Save changes
+                </button>
             </div>
         </div>
         </>
