@@ -1,18 +1,19 @@
 import React from "react";
-import { BiChevronRight } from "react-icons/bi"
+import { BiChevronRight, BiSearch } from "react-icons/bi";
 
 const NavSm = () => {
     return (
         <>
-        <div>
+        <div className="text-white flex items-center justify-between">
             <div>
-                <h3>It All Starts Here!</h3>
-                <span>
-                    Pune <BiChevronRight />
+                <h3 className="text-xl font-bold text-green-500">It All Starts Here!</h3>
+                <span className="text-gray-400 text-xs flex items-center">
+                    Pune 
+                    <BiChevronRight />
                 </span>
-                <button class="py-2 px-4 font-semibold rounded-lg shadow-md text-white bg-sky-500 hover:bg-sky-700 bg-red-500" >
-                    Save changes
-                </button>
+                <div className="w-8 h-8">
+                    <BiSearch className="w-full h-full" />
+                </div>
             </div>
         </div>
         </>
