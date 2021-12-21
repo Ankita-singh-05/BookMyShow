@@ -20,18 +20,33 @@ const NavSm = () => {
     );
 };
 
-const NavMd = () => {};
+const NavMd = () => {
+    return (
+        <>
+            <div className="w-full">
+                <BiSearch />
+                <input 
+                    type="search"
+                    className="w-full"
+                    placeholder="Search for Movies, Events, Plays, Sports and Activities"
+                />
+            </div>
+        </>
+    ); 
+};
+       
+
 const NavLg = () => {};
 
 const Navbar = () => {
     return (
         <>
-        <nav>
+        <nav className="bg-gray-400 px-2 py-4">
             <div className="md:hidden">{/* Mobile Screen */}
                 <NavSm />
             </div>
-            <div className="hidden md:flex lg:hidden">
-                {/* Tablet Screen */}
+            <div className="hidden md:flex lg:hidden"> {/* Tablet Screen */}
+                <NavMd />
             </div>
             <div className="hidden lg:flex">
                 {/* Large Screen */}
