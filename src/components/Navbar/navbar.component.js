@@ -6,8 +6,8 @@ const NavSm = () => {
         <>
         <div className="text-white flex items-center justify-between">
             <div>
-                <h3 className="text-xl font-bold text-green-500">It All Starts Here!</h3>
-                <span className="text-gray-400 text-xs flex items-center">
+                <h3 className="text-xl font-bold text-white">It All Starts Here!</h3>
+                <span className="text-white text-xs flex items-center">
                     Pune 
                     <BiChevronRight />
                 </span>
