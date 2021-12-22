@@ -23,8 +23,8 @@ const NavSm = () => {
 const NavMd = () => {
     return (
         <>
-            <div className="w-full">
-                <BiSearch />
+            <div className="w-full flex gap-2 items-center bg-white px-2 py-3 rounded-md">
+                <BiSearch className="pl-1"/>
                 <input 
                     type="search"
                     className="w-full"
@@ -41,7 +41,7 @@ const NavLg = () => {};
 const Navbar = () => {
     return (
         <>
-        <nav className="bg-gray-400 px-2 py-4">
+        <nav className="bg-gray-800 px-2 py-4">
             <div className="md:hidden">{/* Mobile Screen */}
                 <NavSm />
             </div>
