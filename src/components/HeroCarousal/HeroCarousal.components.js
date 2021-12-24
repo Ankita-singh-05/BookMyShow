@@ -13,7 +13,7 @@ const HeroCarousal = () => {
     const settings = {
         arrows: true,
         centerMode: true,
-        centerPadding: "150px",
+        centerPadding: "160px",
         dots: true,
         infinite: true,
         speed: 500,
