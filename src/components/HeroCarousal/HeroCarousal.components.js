@@ -31,13 +31,13 @@ const images = ["https://images.unsplash.com/photo-1638913970895-d3df59be1466?ix
         <>
             <HeroSlider {...settings}>
                 {images.map((image) => (
-                    <div className="w-20 h-80">
-                        <img src={image} alt="hero-image" className="w-full h-full object-fill z-0" />
+                    <div className="w-20 h-96 px2 py-3">
+                        <img src={image} alt="hero-image" className="rounded-md w-full h-full " />
                     </div>
                 ))}
             </HeroSlider>
         </>
-    )
+    );
 };
 
 export default HeroCarousal;
