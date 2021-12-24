@@ -5,12 +5,12 @@
 
 .slick-prev {
     /* Left-3% is for left padding */
-    left: 3% !important;
+    left: 2% !important;
     /* To show the slick on top of the images z-index is used */
     z-index: 1;
 }
 
 .slick-next {
-    right: 3% !important;
+    right: 2% !important;
     z-index: 1;
 }
