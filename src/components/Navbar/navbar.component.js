@@ -36,20 +36,37 @@ const NavMd = () => {
 };
        
 
-const NavLg = () => {};
+const NavLg = () => {
+    return (
+        <>
+         <div className="">
+             <img src="https://in.bmscdn.com/webin/common/favicon.ico" 
+             alt="Logo" className="w-30 h-10"/>
+         </div>
+         <div className="w-full flex gap-2 items-center bg-white px-30 py-3 m-1 mt-4 rounded-md">
+                <BiSearch className="pl-1"/>
+                <input 
+                    type="search"
+                    className="w-full"
+                    placeholder="Search for Movies, Events, Plays, Sports and Activities"
+                />
+            </div>
+        </>
+    );
+};
 
 const Navbar = () => {
     return (
         <>
-        <nav className="bg-gray-800 px-2 py-4">
+        <nav className="bg-gray-600 px-2 py-4">
             <div className="md:hidden">{/* Mobile Screen */}
                 <NavSm />
             </div>
             <div className="hidden md:flex lg:hidden"> {/* Tablet Screen */}
                 <NavMd />
             </div>
-            <div className="hidden lg:flex">
-                {/* Large Screen */}
+            <div className="hidden lg:flex"> {/* Large Screen */}
+               <NavLg />
             </div>
         </nav>
         </>

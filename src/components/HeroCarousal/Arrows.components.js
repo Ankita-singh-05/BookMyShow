@@ -8,7 +8,6 @@ export const NextArrow = (props) => {
                 style={{...props.style, 
                     backgroundColor: "grey",
                     borderRadius: "50px",
-                    paddingBlockEnd: "px"
                  }}
                 onClick={props.onClick}
              />
@@ -24,7 +23,6 @@ export const PrevArrow = (props) => {
                 style={{...props.style, 
                     backgroundColor: "grey",
                     borderRadius: "50px",
-                    paddingBlockEnd: "px"
                  }}
                 onClick={props.onClick}
              />
