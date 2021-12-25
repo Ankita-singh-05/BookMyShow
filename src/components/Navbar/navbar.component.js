@@ -39,9 +39,9 @@ const NavMd = () => {
 const NavLg = () => {
     return (
         <>
-         <div className="">
-             <img src="https://in.bmscdn.com/webin/common/favicon.ico" 
-             alt="Logo" className="w-30 h-10"/>
+         <div className="flex text-white text-xl font-semibold">
+             <div className="flex"> book <img src="https://in.bmscdn.com/webin/common/favicon.ico" 
+             alt="Logo" className="w-30 h-10"/>show </div>
          </div>
          <div className="w-full flex gap-2 items-center bg-white px-30 py-3 m-1 mt-4 rounded-md">
                 <BiSearch className="pl-1"/>
