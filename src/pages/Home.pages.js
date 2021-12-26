@@ -11,7 +11,20 @@ const HomePage = () => {
                     The Best of Entertainment
                 </h1>
                 <EntertainmentCardSlider />
-                <Premiere />
+            </div>
+
+            <div>
+                <div>
+                    <img 
+                        src="https://in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120/premiere-rupay-banner-web-collection-202104230555.png"
+                        alt="Premiere-Rupay"
+                        className="w-full h-full"
+                    />
+                </div>
+                
+                <div className="mx-auto px-32 container">
+                  <Premiere />
+                </div>
             </div>
         </>
     );

@@ -18,71 +18,61 @@ const Premiere = () => {
             src: "https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:oi-discovery-catalog@@icons@@premiere-icon.png,ox-322,oy-20/et00020507-hvddmzbcer-portrait.jpg",
             alt: "SON of GOD",
             title: "SON OF GOD",
-            subtitle: "English",
-            isDark: false
+            subtitle: "English"
         },
         {
             src: "https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:oi-discovery-catalog@@icons@@premiere-icon.png,ox-322,oy-20/et00020507-hvddmzbcer-portrait.jpg",
             alt: "SON of GOD",
             title: "SON OF GOD",
-            subtitle: "English",
-            isDark: false
+            subtitle: "English"
         },
         {
             src: "https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:oi-discovery-catalog@@icons@@premiere-icon.png,ox-322,oy-20/et00020507-hvddmzbcer-portrait.jpg",
             alt: "SON of GOD",
             title: "SON OF GOD",
-            subtitle: "English",
-            isDark: false
+            subtitle: "English"
         },
         {
             src: "https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:oi-discovery-catalog@@icons@@premiere-icon.png,ox-322,oy-20/et00020507-hvddmzbcer-portrait.jpg",
             alt: "SON of GOD",
             title: "SON OF GOD",
-            subtitle: "English",
-            isDark: false
+            subtitle: "English"
         },
         {
             src: "https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:oi-discovery-catalog@@icons@@premiere-icon.png,ox-322,oy-20/et00020507-hvddmzbcer-portrait.jpg",
             alt: "SON of GOD",
             title: "SON OF GOD",
-            subtitle: "English",
-            isDark: false
+            subtitle: "English"
         },
         {
             src: "https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:oi-discovery-catalog@@icons@@premiere-icon.png,ox-322,oy-20/et00020507-hvddmzbcer-portrait.jpg",
             alt: "SON of GOD",
             title: "SON OF GOD",
-            subtitle: "English",
-            isDark: false
+            subtitle: "English"
         },
         {
             src: "https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:oi-discovery-catalog@@icons@@premiere-icon.png,ox-322,oy-20/et00020507-hvddmzbcer-portrait.jpg",
             alt: "SON of GOD",
             title: "SON OF GOD",
-            subtitle: "English",
-            isDark: false
+            subtitle: "English"
         },
         {
             src: "https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:oi-discovery-catalog@@icons@@premiere-icon.png,ox-322,oy-20/et00020507-hvddmzbcer-portrait.jpg",
             alt: "SON of GOD",
             title: "SON OF GOD",
-            subtitle: "English",
-            isDark: false
+            subtitle: "English"
         },
         {
             src: "https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:oi-discovery-catalog@@icons@@premiere-icon.png,ox-322,oy-20/et00020507-hvddmzbcer-portrait.jpg",
             alt: "SON of GOD",
             title: "SON OF GOD",
-            subtitle: "English",
-            isDark: false
+            subtitle: "English"
         },
         {
             src: "https://in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:oi-discovery-catalog@@icons@@premiere-icon.png,ox-322,oy-20/et00020507-hvddmzbcer-portrait.jpg",
             alt: "SON of GOD",
             title: "SON OF GOD",
-            subtitle: "English",
-            isDark: false
+            subtitle: "English"
         }
     ];
 
