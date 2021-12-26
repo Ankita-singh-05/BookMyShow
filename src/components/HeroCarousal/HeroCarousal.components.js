@@ -21,13 +21,13 @@ const HeroCarousal = () => {
         nextArrow: <NextArrow />
     };
 
-const images = ["https://images.unsplash.com/photo-1638913970895-d3df59be1466?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80",
- "https://images.unsplash.com/photo-1598476106394-585fbda433c7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
- "https://images.unsplash.com/photo-1584295632440-16db84c1f69b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
- "https://images.unsplash.com/photo-1626298671769-6d38b161234b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
- "https://images.unsplash.com/photo-1640114198747-fa498a232dd7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDExfGJvOGpRS1RhRTBZfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
- "https://images.unsplash.com/photo-1639237430665-86d1f923718b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDh8Ym84alFLVGFFMFl8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60",
- "https://images.unsplash.com/photo-1520534246865-ce9a70ce0b92?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEzfGJvOGpRS1RhRTBZfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
+const images = ["https://images.unsplash.com/photo-1535016120720-40c646be5580?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bW92aWV8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+ "https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG1vdmllfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+ "https://media.istockphoto.com/photos/asian-chinese-mixed-age-group-audience-watching-movie-sitting-in-a-picture-id1334584173?b=1&k=20&m=1334584173&s=170667a&w=0&h=KRYZOvFdEDkVmi_A2UyJnBWFXJsQ0gwiyfItopsp4ac=",
+ "https://media.istockphoto.com/photos/pop-corn-and-on-red-armchair-cinema-picture-id1271522601?b=1&k=20&m=1271522601&s=170667a&w=0&h=azZRRchShbrwRgq58omc1HOYABnfDDOzXJatuaZrueQ=",
+ "https://media.istockphoto.com/photos/friends-in-the-cinema-picture-id1180701083?b=1&k=20&m=1180701083&s=170667a&w=0&h=i4RjlXSocbLiBpruz5KQY4wUlHZ9WX8bAVIMGf1qclw=",
+ "https://media.istockphoto.com/photos/people-watching-movie-on-the-rooftop-terrace-at-sunset-picture-id1327329947?b=1&k=20&m=1327329947&s=170667a&w=0&h=bebFCYw709rXRIHuWzsx-oP19ie0Q1taFR6BI6pluw4=",
+ "https://images.unsplash.com/photo-1548095115-45697e222a58?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fG1vdmllfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
 ];
 
     return (

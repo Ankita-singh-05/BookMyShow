@@ -2,9 +2,11 @@ import { Route } from "react-router-dom";
 
 //HOC 
 import DefaultHOC from "./HOC/Default.HOC";
+import MovieHOC from "./HOC/Movie.HOC";
 
-//Components
-import HomePage from "./pages/Home.pages"
+//Pages
+import HomePage from "./pages/Home.pages";
+import Movie from "./pages/Movie.pages";
 
 
 function App() {
@@ -14,6 +16,7 @@ function App() {
     {/* <Route path="/" exact component = {Name} />
     <Route path="/movie" exact component = {Name2} /> */}
       <DefaultHOC path="/" exact component={HomePage} />
+      <MovieHOC path="/movie/:id" exact component={Movie} />
     </>
   );
 }

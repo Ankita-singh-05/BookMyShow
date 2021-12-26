@@ -6,6 +6,8 @@ import  Premiere  from "../components/Premiere/Premiere.components";
 const HomePage = () => {
     return (
         <>
+            <div className="flex flex-col gap-14">
+
             <div className="container mx-auto px-32">
                 <h1 className="text-2xl font-bold text-gray-900 my-3">
                     The Best of Entertainment
@@ -23,9 +25,12 @@ const HomePage = () => {
                     />
                 </div>
                 
-                <div className="mx-auto px-32 container">
+                <div className="mx-auto px-32 container gap-1">
                   <Premiere />
                 </div>
+            </div>
+
+
             </div>
         </>
     );
