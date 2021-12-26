@@ -1,41 +1,21 @@
 import React from "react";
-import { BiChevronRight, BiSearch } from "react-icons/bi";
+import { BiChevronRight, BiSearch, BiShareAlt } from "react-icons/bi";
 
 const NavSm = () => {
     return (
         <>
-        <div className="text-white flex items-center justify-between">
+        <div className="text-gray-800 flex items-center justify-between">
             <div>
                 <h3 className="text-xl font-bold text-white">It All Starts Here!</h3>
-                <span className="text-white text-xs flex items-center">
-                    Pune 
-                    <BiChevronRight />
-                </span>
                 <div className="w-8 h-8">
-                    <BiSearch className="w-full h-full" />
+                    <BiShareAlt className="w-full h-full" />
                 </div>
             </div>
         </div>
         </>
     );
 };
-
-const NavMd = () => {
-    return (
-        <>
-            <div className="w-full flex gap-2 items-center bg-white px-2 py-3 rounded-md">
-                <BiSearch className="pl-1"/>
-                <input 
-                    type="search"
-                    className="w-full"
-                    placeholder="Search for Movies, Events, Plays, Sports and Activities"
-                />
-            </div>
-        </>
-    ); 
-};
-       
-
+    
 const NavLg = () => {
     return (
         <>
@@ -55,17 +35,17 @@ const NavLg = () => {
     );
 };
 
-const Navbar = () => {
+const MovieNavbar = () => {
     return (
         <>
-        <nav className="bg-bms-700 px-2 py-4">
+        <nav className="px-2 py-4">
             <div className="md:hidden">{/* Mobile Screen */}
                 <NavSm />
             </div>
             <div className="hidden md:flex lg:hidden"> {/* Tablet Screen */}
-                <NavMd />
+                <NavSm />
             </div>
-            <div className="hidden lg:flex"> {/* Large Screen */}
+            <div className="bg-gray-700 hidden lg:flex"> {/* Large Screen */}
                <NavLg />
             </div>
         </nav>
@@ -73,4 +53,4 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default MovieNavbar;
