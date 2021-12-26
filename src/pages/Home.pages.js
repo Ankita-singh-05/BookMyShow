@@ -13,8 +13,9 @@ const HomePage = () => {
                 <EntertainmentCardSlider />
             </div>
 
-            <div>
-                <div>
+
+            <div className="bg-bms-700 py-16">
+                <div className="mx-auto px-32 container">
                     <img 
                         src="https://in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120/premiere-rupay-banner-web-collection-202104230555.png"
                         alt="Premiere-Rupay"
@@ -30,4 +31,4 @@ const HomePage = () => {
     );
 };
 
-export default EntertainmentCardSlider;
+export default HomePage;

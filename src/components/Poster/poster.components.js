@@ -8,14 +8,14 @@ const Poster = (props) => {
                     <img src={props.src} className="w-full h-full rounded-xl" />
                 </div>
                 <h3 
-                className={`text-lg font-bold ${
+                className={`text-lg font-medium ${
                     props.isDark ? "text-white" : "text-gray-800"
                 }`}
                 >
                     {props.title}
                 </h3>
                 <p
-                className={`text-sm font-bold ${
+                className={`text-sm font-normal ${
                     props.isDark ? "text-white" : "text-gray-700"
                 }`}
                 >
