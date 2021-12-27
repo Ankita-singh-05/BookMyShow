@@ -4,14 +4,12 @@ import { BiChevronRight, BiSearch, BiShareAlt } from "react-icons/bi";
 const NavSm = () => {
     return (
         <>
-        <div className="text-gray-800 flex items-center justify-between">
-            <div>
-                <h3 className="text-xl font-bold text-white">It All Starts Here!</h3>
+            <div className="text-gray-800 flex items-center justify-between">
+                <h3 className="text-xl font-bold">It All Starts Here!</h3>
                 <div className="w-8 h-8">
                     <BiShareAlt className="w-full h-full" />
                 </div>
             </div>
-        </div>
         </>
     );
 };
@@ -42,7 +40,7 @@ const MovieNavbar = () => {
             <div className="md:hidden">{/* Mobile Screen */}
                 <NavSm />
             </div>
-            <div className="hidden md:flex lg:hidden"> {/* Tablet Screen */}
+            <div className="hidden md:block lg:hidden"> {/* Tablet Screen */}
                 <NavSm />
             </div>
             <div className="bg-gray-700 hidden lg:flex"> {/* Large Screen */}
