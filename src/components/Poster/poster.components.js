@@ -5,7 +5,7 @@ const Poster = (props) => {
         <>
             <div className="px-3">
                 <div className="h-80">
-                    <img src={`https://image.tmdb.org/t/p/original${props.backdrop_path}`} className="w-full h-full rounded-xl" />
+                    <img src={`https://image.tmdb.org/t/p/original${props.poster_path}`} className="w-full h-full rounded-xl" />
                 </div>
                 <h3 
                 className={`text-lg font-medium ${
