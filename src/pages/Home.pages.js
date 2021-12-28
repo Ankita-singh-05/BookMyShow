@@ -40,7 +40,7 @@ const HomePage = () => {
                 </div>
                 
                 <div className="mx-auto px-32 container gap-1">
-                  <Premiere />
+                  <Premiere PremiereImages={popularMovies} />
                 </div>
             </div>
 
