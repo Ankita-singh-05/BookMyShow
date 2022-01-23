@@ -22,7 +22,12 @@ const HomePage = () => {
         <>
             <div className="flex flex-col gap-14">
 
-            <div className="container mx-auto px-32">
+            <div className="container mx-auto px-16 pt-16">
+                <img src="https://in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120/lead-in-v3-collection-202102040828.png"
+                alt="BMS_Stream" />
+            </div>
+
+            <div className="container mx-auto px-16">
                 <h1 className="text-2xl font-bold text-gray-900 my-3">
                     The Best of Entertainment
                 </h1>
@@ -39,7 +44,7 @@ const HomePage = () => {
                     />
                 </div>
                 
-                <div className="mx-auto px-32 container gap-1">
+                <div className="mx-auto px-16 container gap-1">
                   <Premiere PremiereImages={popularMovies} />
                 </div>
             </div>

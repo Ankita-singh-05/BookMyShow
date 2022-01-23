@@ -78,7 +78,7 @@ const Premiere = (props) => {
 
     return (
         <>
-        <div className="flex flex-col items-start py-4">
+        <div className="w-full h-full flex flex-col items-start py-4 px-5">
             <h3 className="text-white text-xl font-bold">Premieres</h3>
             <p className="text-white text-sm">Brand new releases every Friday</p>
         </div>
