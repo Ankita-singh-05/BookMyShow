@@ -40,10 +40,11 @@ const Movie  = () => {
                    <div className="ml-10 py-5">
                         <h1 className="text-white font-bold text-4xl ml-10 py-5"> Pushpa: The Rise - Part 01</h1>
 
-                        <div classname="bg-white text-black rounded">
+                        <div classname="bg-white text-white rounded">
                             <span>2D</span>
                             <h1>Telugu, Kannada, Tamil, Malayalam, Hindi</h1> 
                         </div>
+
 
                         <button onClick={launchRazorPay} class="m-16 bg-red-500 hover:bg-red-600 text-xl text-white font-bold py-3 px-14 rounded-md">
                              Book tickets
