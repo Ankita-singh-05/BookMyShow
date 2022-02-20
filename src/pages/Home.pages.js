@@ -23,11 +23,11 @@ const HomePage = () => {
         <>
             <div className="flex flex-col gap-14">
 
-                <div className="container px-16">
-                    <h1 className="text-2xl font-bold text-gray-900">
+                <div className="px-16 mt-12">
+                    <h1 className="text-2xl font-bold text-gray-900 top-3">
                         Recommended Movies
                     </h1>
-                    <RecommendedMovies />
+                    <RecommendedMovies/>
                 </div>
 
             <div className="container mx-auto px-16 pt-16">
