@@ -27,8 +27,8 @@ const RecommendedMovies = () => {
         centerMode: true,
         centerPadding: "160px",
         infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 2,
+        slidesToShow: 4,
+        slidesToScroll: 1,
         prevArrow: <PrevArrow />,
         nextArrow: <NextArrow />
     };
@@ -46,8 +46,8 @@ const RecommendedMovies = () => {
         <>
             <HeroSlider {...settings}>
                 {images.map((image) => (
-                    <div className="h-96 px-3 mt-2 rounded-md">
-                        <img src={`https://image.tmdb.org/t/p/original${image.backdrop_path}`} alt="hero-image" className="rounded-md w-full h-full " />
+                    <div className="h-96 px-2 mt-2 rounded-md">
+                        <img src={`https://image.tmdb.org/t/p/original${image.backdrop_path}`} alt="hero-image" className="rounded-md w-full h-full object-cover" />
                     </div>
                 ))}
             </HeroSlider>
