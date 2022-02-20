@@ -4,6 +4,7 @@ import axios from "axios";
 //Components
 import EntertainmentCardSlider from "../components/EntertainmentCard/EntertainmentCard.component";
 import  Premiere  from "../components/Premiere/Premiere.components";
+import RecommendedMovies from "../components/RecommendedMovies/RecommendedMovies.component";
 
 const HomePage = () => {
     const [popularMovies, setPopularMovies] = useState([]);
@@ -21,6 +22,13 @@ const HomePage = () => {
     return (
         <>
             <div className="flex flex-col gap-14">
+
+                <div className="container px-16">
+                    <h1 className="text-2xl font-bold text-gray-900">
+                        Recommended Movies
+                    </h1>
+                    <RecommendedMovies />
+                </div>
 
             <div className="container mx-auto px-16 pt-16">
                 <img src="https://in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120/lead-in-v3-collection-202102040828.png"
